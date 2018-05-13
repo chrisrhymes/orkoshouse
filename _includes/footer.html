@@ -1,0 +1,22 @@
+<footer class="footer">
+    <div class="container">
+        <section class="section">
+            <div class="columns">
+                <div class="column">
+                    <h4 class="title is-4">Contact Us</h4>
+                </div>
+                <div class="column">
+                    <h4 class="title is-4">Site Map</h4>
+                    <aside class="menu">
+                        <ul class="menu-list">
+                            {% assign navpages = site.pages | sort: "order" | where: "type","page" %}
+                            {% for page in navpages %}
+                                <li><a class="navbar-item" href="{{ page.url }}">{{ page.title }}</a></li>
+                            {% endfor %}   
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>

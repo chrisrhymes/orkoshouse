@@ -1,0 +1,11 @@
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../node_modules/bulma/sass/utilities/functions.sass";
+
+$light-blue: #2B8CD5;
+$primary: $light-blue;
+$radius: 0;
+$family-sans-serif: 'Open Sans', sans-serif;
+$family-primary: $family-sans-serif;
+
+@import '../node_modules/bulma/bulma.sass';
+

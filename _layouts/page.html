@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="hero is-medium is-primary" {% if page.hero %} style="background: url('{{ page.hero }}') center center / cover no-repeat;" {% endif %} >
+    <div class="hero-body">
+        <div class="container">
+            <p class="title brand has-text-centered">{{ page.title }}</p>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="section">
+        {{ page.content }}
+    </div>
+</div>

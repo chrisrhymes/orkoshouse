@@ -1,0 +1,14 @@
+{
+  "name": "orkos-house",
+  "version": "1.0.0",
+  "description": "Orkos House Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C.S. Rhymes",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}

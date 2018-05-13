@@ -1,0 +1,13 @@
+.brand {
+    font-family: 'Rock Salt', cursive;
+}
+
+.home {
+    &-hero {
+        background: url('/img/home-hero.jpg') center center / cover no-repeat;
+    }
+}
+
+.hero-inner {
+    background: rgba($primary, 0.5);
+}
