@@ -6,11 +6,20 @@ type: page
 
 <section class="hero is-fullheight is-primary home-hero">
     <div class="hero-body">
-        <div class="container has-text-right">
-            <a href="/booking" class="button is-large is-primary brand">
-                Book Your Stay Now
-            </a>
+        <div class="container has-text-centered">
+            <div class="columns is-multiline">
+                <div class="column is-12-tablet is-6-desktop">
+                    <p class="title is-1 brand home-hero-title">Orkos House, Naxos</p>
+                </div>
+                <div class="column is-12-tablet is-6-desktop">
+                    <a href="/booking" class="button is-large is-primary brand home-hero-link">
+                        Book Your Stay Now
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="hero-foot">
     </div>
 </section>
 
@@ -20,8 +29,10 @@ type: page
             <div class="column">
                 <div class="content">
                     <h1 class="brand has-text-primary">Orkos House - Naxos</h1>
-                    <p>Orkos House is a newly built house situated in a prominent position 500 metres north of Mikri Vigla village. It has extensive views towards Plaka beach, Paros, Mikri Vigla and beyond.</p>
-                    <p>The accommodation is on two floors and consists of two bedrooms, a kitchen and a bathroom. The house is built to a high standard with double glazed windows and doors, wooden shutters, marble floors and it is fully insulated.</p>
+                    <p>Orkos House is a newly built house situated in a prominent position 500 metres north of Mikri Vigla village. </p>
+                    <p>It has extensive views towards Plaka beach, Paros, Mikri Vigla and beyond.</p>
+                    <p>The accommodation is on two floors and consists of two bedrooms, a kitchen and a bathroom. </p>
+                    <p>The house is built to a high standard with double glazed windows and doors, wooden shutters, marble floors and it is fully insulated.</p>
                 </div>
             </div>
             <div class="column">
@@ -39,18 +50,19 @@ type: page
                 <div class="columns is-multiline">
                     <div class="column is-12">
                         <div class="content">
-                            <h2 class="brand">Top Floor</h2>
-                            <p>The top floor has the shower room next to a large bedroom with built in wardrobes and satellite TV. There is air conditioning to each bedroom. We also have a fold up bed and a travel cot. Cleaning and change of bedding is included in the price.</p>
+                            <h2 class="brand has-text-white">Top Floor</h2>
+                            <p>The top floor has the shower room next to a large bedroom with built in wardrobes and satellite TV. There is air conditioning to each bedroom.</p> 
+                            <p>We also have a fold up bed and a travel cot. Cleaning and change of bedding is included in the price.</p>
                         </div>
                     </div>
                     <div class="column is-4">
-                        <img src="/img/balcony1.jpg" alt="">
+                        <img src="/img/bedroom.jpg" alt="">
                     </div>
                     <div class="column is-4">
-                        <img src="/img/balcony1.jpg" alt="">
+                        <img src="/img/dresser.jpg" alt="">
                     </div>
                     <div class="column is-4">
-                        <img src="/img/balcony1.jpg" alt="">
+                        <img src="/img/dresser2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -63,17 +75,18 @@ type: page
             <div class="column is-12">
                 <div class="content">
                     <h2 class="brand">Lower Floor</h2>
-                    <p>The lower floor has a twin bedroom and a kitchen with an eating area. The kitchen fittings include an oven with hob, refrigerator with freezer compartment, micowave and a washing machine.</p>
+                    <p>The lower floor has a twin bedroom and a kitchen with an eating area.</p> 
+                    <p>The kitchen fittings include an oven with hob, refrigerator with freezer compartment, micowave and a washing machine.</p>
                 </div>
             </div>
             <div class="column is-4">
-                <img src="/img/balcony1.jpg" alt="">
+                <img src="/img/twin-bedroom.jpg" alt="">
             </div>
             <div class="column is-4">
-                <img src="/img/balcony1.jpg" alt="">
+                <img src="/img/kitchen.jpg" alt="">
             </div>
             <div class="column is-4">
-                <img src="/img/balcony1.jpg" alt="">
+                <img src="/img/archway.jpg" alt="">
             </div>
         </div>
     </section>
@@ -85,18 +98,19 @@ type: page
                 <div class="columns is-multiline">
                     <div class="column is-12">
                         <div class="content">
-                            <h2 class="brand">Views</h2>
-                            <p>Both floors have a large balcony with sea views. There is a small balcony to the rear of the first floor and a patio area to the rear of the lower floor.</p>
+                            <h2 class="brand has-text-white">Views</h2>
+                            <p>Both floors have a large balcony with sea views.</p> 
+                            <p>There is a small balcony to the rear of the first floor and a patio area to the rear of the lower floor.</p>
                         </div>
                     </div>
                     <div class="column is-4">
                         <img src="/img/balcony1.jpg" alt="">
                     </div>
                     <div class="column is-4">
-                        <img src="/img/balcony1.jpg" alt="">
+                        <img src="/img/balcony2.jpg" alt="">
                     </div>
                     <div class="column is-4">
-                        <img src="/img/balcony1.jpg" alt="">
+                        <img src="/img/balcony3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -109,7 +123,11 @@ type: page
             <div class="column is-12">
                 <div class="content">
                     <h2 class="brand">Extras</h2>
-                    <p>We offer a free meet and greet service. Cleaning and a change of bedding once a week is included in the price. Car hire is recommended.</p>
+                    <ul>
+                        <li>We offer a free meet and greet service.</li>
+                        <li>Cleaning and a change of bedding once a week is included in the price.</li>
+                        <li>Car hire is recommended.</li>
+                    </ul>
                 </div>
             </div>
         </div>
