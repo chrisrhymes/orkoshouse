@@ -67,7 +67,7 @@ hero: '/img/local-area-intro.jpg'
         <div class="columns is-multiline">
             <div class="column is-12">
                 <h2 class="title is-4 brand">Google Maps</h2>
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?t=h&amp;hl=en&amp;ie=UTF8&amp;s=AARTsJpnOA3ioEtcI9rx_v7gyZqlolGTYw&amp;ll=37.031405,25.375328&amp;spn=0.016445,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.uk/maps?t=h&amp;hl=en&amp;ie=UTF8&amp;ll=37.031405,25.375328&amp;spn=0.016445,0.027466&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?t=h&amp;hl=en&amp;ie=UTF8&amp;s=AARTsJpnOA3ioEtcI9rx_v7gyZqlolGTYw&amp;ll=37.031405,25.375328&amp;spn=0.016445,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.uk/maps?t=h&amp;hl=en&amp;ie=UTF8&amp;ll=37.031405,25.375328&amp;spn=0.016445,0.027466&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
             </div>
         </div>
     </section>
