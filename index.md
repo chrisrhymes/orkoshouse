@@ -37,7 +37,7 @@ type: page
             </div>
             <div class="column">
                 <figure class="image">
-                    <img src="/img/balcony1.jpg" width="100%" alt="Orkos House balcony">
+                    <img src="{{ '/img/balcony1.jpg' | relative_url }}" width="100%" alt="Orkos House balcony">
                 </figure>
             </div>
         </div>
@@ -48,21 +48,19 @@ type: page
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-multiline">
-                    <div class="column is-12">
+                <div class="column is-6">
+                        <div class="owl-carousel owl-theme">
+                            <div><img src="{{ '/img/bedroom.jpg' | relative_url }}" alt=""></div>
+                            <div><img src="{{ '/img/dresser.jpg' | relative_url }}" alt=""></div>
+                            <div><img src="{{ '/img/dresser2.jpg' | relative_url }}" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="column is-6">
                         <div class="content">
                             <h2 class="brand has-text-white">Top Floor</h2>
                             <p>The top floor has the shower room next to a large bedroom with built in wardrobes and satellite TV. There is air conditioning to each bedroom.</p> 
                             <p>We also have a fold up bed and a travel cot. Cleaning and change of bedding is included in the price.</p>
                         </div>
-                    </div>
-                    <div class="column is-4">
-                        <img src="/img/bedroom.jpg" alt="">
-                    </div>
-                    <div class="column is-4">
-                        <img src="/img/dresser.jpg" alt="">
-                    </div>
-                    <div class="column is-4">
-                        <img src="/img/dresser2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -72,21 +70,19 @@ type: page
 <div class="container">
     <section class="section">
         <div class="columns is-multiline">
-            <div class="column is-12">
+            <div class="column is-6">
                 <div class="content">
                     <h2 class="brand">Lower Floor</h2>
                     <p>The lower floor has a twin bedroom and a kitchen with an eating area.</p> 
                     <p>The kitchen fittings include an oven with hob, refrigerator with freezer compartment, micowave and a washing machine.</p>
                 </div>
             </div>
-            <div class="column is-4">
-                <img src="/img/twin-bedroom.jpg" alt="">
-            </div>
-            <div class="column is-4">
-                <img src="/img/kitchen.jpg" alt="">
-            </div>
-            <div class="column is-4">
-                <img src="/img/archway.jpg" alt="">
+            <div class="column is-6">
+                <div class="owl-carousel owl-theme">
+                    <div><img src="{{ '/img/twin-bedroom.jpg' | relative_url }}" alt="" /></div>
+                    <div><img src="{{ '/img/kitchen.jpg' | relative_url }}" alt="" /></div>
+                    <div><img src="{{ '/img/archway.jpg' | relative_url }}" alt="" /></div>
+                </div>
             </div>
         </div>
     </section>
@@ -96,21 +92,19 @@ type: page
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-multiline">
-                    <div class="column is-12">
+                <div class="column is-6">
+                        <div class="owl-carousel owl-theme">
+                            <div><img src="{{ '/img/balcony1.jpg' | relative_url }}" alt=""></div>
+                            <div><img src="{{ '/img/balcony2.jpg' | relative_url }}" alt=""></div>
+                            <div><img src="{{ '/img/balcony3.jpg' | relative_url }}" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="column is-6">
                         <div class="content">
                             <h2 class="brand has-text-white">Views</h2>
                             <p>Both floors have a large balcony with sea views.</p> 
                             <p>There is a small balcony to the rear of the first floor and a patio area to the rear of the lower floor.</p>
                         </div>
-                    </div>
-                    <div class="column is-4">
-                        <img src="/img/balcony1.jpg" alt="">
-                    </div>
-                    <div class="column is-4">
-                        <img src="/img/balcony2.jpg" alt="">
-                    </div>
-                    <div class="column is-4">
-                        <img src="/img/balcony3.jpg" alt="">
                     </div>
                 </div>
             </div>

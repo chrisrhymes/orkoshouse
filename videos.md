@@ -35,34 +35,34 @@ hero: '/img/videos-intro.jpg'
                 <h2 class="title is-4 brand">Gallery</h2>
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery1.jpg" alt="Aghia Anna Orkos House Gallery">
+                <img src="{{ '/img/gallery1.jpg' | relative_url }}" alt="Aghia Anna Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery2.jpg" alt="Sunset from the top balcony Orkos House Gallery">
+                <img src="{{ '/img/gallery2.jpg' | relative_url }}" alt="Sunset from the top balcony Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery3.jpg" alt="View South from Avali Taverna, Aghios Prokopios Orkos House Gallery">
+                <img src="{{ '/img/gallery3.jpg' | relative_url }}" alt="View South from Avali Taverna, Aghios Prokopios Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery4.jpg" alt="Paros View from balcony Orkos House Gallery">
+                <img src="{{ '/img/gallery4.jpg' | relative_url }}" alt="Paros View from balcony Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery5.jpg" alt="Sunset on Parthenos beach Orkos House Gallery">
+                <img src="{{ '/img/gallery5.jpg' | relative_url }}" alt="Sunset on Parthenos beach Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery6.jpg" alt="View across Mikri Vigla back to house Orkos House Gallery">
+                <img src="{{ '/img/gallery6.jpg' | relative_url }}" alt="View across Mikri Vigla back to house Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery7.jpg" alt="Another sunset Orkos House Gallery">
+                <img src="{{ '/img/gallery8.jpg' | relative_url }}" alt="Beach below house Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery8.jpg" alt="Beach below house Orkos House Gallery">
+                <img src="{{ '/img/gallery9.jpg' | relative_url }}" alt="Sunset from lower balcony Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery9.jpg" alt="Sunset from lower balcony Orkos House Gallery">
+                <img src="{{ '/img/gallery10.jpg' | relative_url }}" alt="View south from Mikri Vigla Rock Orkos House Gallery">
             </div>
             <div class="column is-4-desktop is-6-tablet">
-                <img src="/img/gallery10.jpg" alt="View south from Mikri Vigla Rock Orkos House Gallery">
+                <img src="{{ '/img/gallery7.jpg' | relative_url }}" alt="Another sunset Orkos House Gallery">
             </div>
         </div>
     </section>

@@ -38,8 +38,9 @@ hero: '/img/booking-intro.jpg'
                 <div class="content">
                     <p>Use the below calendar to check availability.</p>
                 </div>
-                <iframe width="100%" height="550px" frameborder=0 scrolling=yes allowtransparency=true src=http://www.availcheck.com/cgi-bin/calendar.cgi?propid=14220></iframe>
-
+                <div>
+                    <iframe width="100%" height="550px" frameborder="0" scrolling="yes" allowtransparency="true" src="http://www.availcheck.com/cgi-bin/calendar.cgi?propid=14220"></iframe>
+                </div>
             </div>
         </div>
     </section>

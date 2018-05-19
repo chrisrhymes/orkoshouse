@@ -16,13 +16,13 @@ hero: '/img/local-area-intro.jpg'
                 </div>
             </div>
             <div class="column is-4">
-                <img src="/img/orkosbeach1.jpg" alt="Orkos Beach">
+                <img src="{{ '/img/orkosbeach1.jpg' | relative_url }}" alt="Orkos Beach">
             </div>
             <div class="column is-4">
-                <img src="/img/orkosbeach2.jpg" alt="Orkos Beach">
+                <img src="{{ '/img/orkosbeach2.jpg' | relative_url }}" alt="Orkos Beach">
             </div>
             <div class="column is-4">
-                <img src="/img/orkosbeach3.jpg" alt="Orkos Beach">
+                <img src="{{ '/img/orkosbeach3.jpg' | relative_url }}" alt="Orkos Beach">
             </div>
         </div>
     </section>
@@ -35,10 +35,10 @@ hero: '/img/local-area-intro.jpg'
                 </div>
             </div>
             <div class="column is-6">
-                <img src="/img/mikrivigla1.jpg" alt="Mikri Vigla">
+                <img src="{{ '/img/mikrivigla1.jpg' | relative_url }}" alt="Mikri Vigla">
             </div>
             <div class="column is-6">
-                <img src="/img/mikrivigla2.jpg" alt="Mikri Vigla">
+                <img src="{{ '/img/mikrivigla2.jpg' | relative_url }}" alt="Mikri Vigla">
             </div>
             <div class="column is-12">
                 <div class="content">
@@ -56,10 +56,10 @@ hero: '/img/local-area-intro.jpg'
                 </div>
             </div>
             <div class="column is-6">
-                <img src="/img/plaka1.jpg" alt="Plaka Beach">
+                <img src="{{ '/img/plaka1.jpg' | relative_url }}" alt="Plaka Beach">
             </div>
             <div class="column is-6">
-                <img src="/img/plaka2.jpg" alt="Plaka Beach">
+                <img src="{{ '/img/plaka2.jpg' | relative_url }}" alt="Plaka Beach">
             </div>
         </div>
     </section>

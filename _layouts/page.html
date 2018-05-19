@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="hero is-medium is-primary" {% if page.hero %} style="background: url('{{ page.hero }}') center center / cover no-repeat;" {% endif %} >
+<section class="hero is-medium is-primary" {% if page.hero %} style="background: url('{{ page.hero | relative_url }}') center center / cover no-repeat;" {% endif %} >
     <div class="hero-body">
         <div class="container">
             <p class="title brand has-text-centered">{{ page.title }}</p>
@@ -10,6 +10,6 @@ layout: default
 </section>
 <div class="container">
     <div class="section">
-        {{ page.content }}
+        {{ content }}
     </div>
 </div>
