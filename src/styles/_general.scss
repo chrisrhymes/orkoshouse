@@ -4,7 +4,7 @@
 
 .home {
     &-hero {
-        background: url('/img/home-hero.jpg') center center / cover no-repeat;
+        background: url('/orkoshouse/img/home-hero.jpg') center center / cover no-repeat;
         &-title {
             animation: fade-in-hero-title 2s;
             @include touch {

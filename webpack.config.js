@@ -1,5 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
@@ -39,6 +41,13 @@ module.exports = {
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery'
-          }),
+        }),
+        new UglifyJsPlugin({
+          extractComments: true,
+          sourceMap: false
+        }),
+        new OptimizeCssAssetsPlugin({
+          cssProcessorOptions: { discardComments: { removeAll: true } }
+        }),
     ],
 };

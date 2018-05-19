@@ -43,7 +43,7 @@ type: page
         </div>
     </div>
 </div>
-<section class="hero is-primary" style="background: url('/img/home-hero.jpg') center center / cover no-repeat;">
+<section class="hero is-primary" style="background: url('{{ '/img/home-hero.jpg' | relative_url }}') center center / cover no-repeat;">
     <div class="hero-inner">
         <div class="hero-body">
             <div class="container">
@@ -87,7 +87,7 @@ type: page
         </div>
     </section>
 </div>
-<section class="hero is-primary" style="background: url('/img/home-hero.jpg') center center / cover no-repeat;">
+<section class="hero is-primary" style="background: url('{{ '/img/home-hero.jpg' | relative_url }}') center center / cover no-repeat;">
     <div class="hero-inner">
         <div class="hero-body">
             <div class="container">
