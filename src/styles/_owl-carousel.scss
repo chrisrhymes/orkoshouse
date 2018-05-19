@@ -1,0 +1,6 @@
+$color-base:			darken($primary, 20%);
+$color-white:			$white;
+$color-gray:			$primary;
+
+@import '~owl.carousel2/src/scss/owl.carousel.scss';
+@import '~owl.carousel2/src/scss/owl.theme.default.scss';

@@ -1,0 +1,59 @@
+.brand {
+    font-family: 'Rock Salt', cursive;
+}
+
+.home {
+    &-hero {
+        background: url('/img/home-hero.jpg') center center / cover no-repeat;
+        &-title {
+            animation: fade-in-hero-title 2s;
+            @include touch {
+                margin-bottom: 2rem;
+            }
+        }
+        &-link {
+            animation: fade-in-hero-link 4s;
+        }
+    }
+}
+
+@keyframes fade-in-hero-title {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in-hero-link {
+    0% {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-inner {
+    background: rgba($primary, 0.5);
+}
+
+.video-container {
+    iframe, 
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}

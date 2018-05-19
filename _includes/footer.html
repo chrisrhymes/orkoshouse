@@ -1,0 +1,36 @@
+<footer class="footer">
+    <div class="container">
+        <section class="section">
+            <div class="columns is-multiline">
+                <div class="column is-6">
+                    <h4 class="title is-4">Contact Us</h4>
+                    <div class="content">
+                        <p>Please feel free to contact us for more information:</p>
+                        <ul>
+                            <li>Email: info@orkoshouse.eu</li> 
+                            <li>Phone: 00447456052339</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column is-6">
+                    <h4 class="title is-4">Site Map</h4>
+                    <aside class="menu">
+                        <ul class="menu-list">
+                            {% assign navpages = site.pages | sort: "order" | where: "type","page" %}
+                            {% for item in navpages %}
+                                <li><a class="navbar-item {% if item.url == page.url %} is-active {% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                            {% endfor %}   
+                        </ul>
+                    </aside>
+                </div>
+                <div class="column is-12">
+                    <section class="section">
+                        <div class="content is-small has-text-centered">
+                            <p>&copy; 2018 Website by <a href="https://www.csrhymes.com" title="Website by C.S. Rhymes">C.S. Rhymes</a></p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
