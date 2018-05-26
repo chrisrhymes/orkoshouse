@@ -4,6 +4,8 @@ title: Booking
 order: 3
 type: page
 hero: '/img/booking-intro.jpg'
+description: Find out more about the availability and booking your stay at Orkos House, Naxos, Greece
+image: /img/booking-intro.jpg
 ---
 
 <div class="container">
@@ -39,7 +41,7 @@ hero: '/img/booking-intro.jpg'
                     <p>Use the below calendar to check availability.</p>
                 </div>
                 <div>
-                    <iframe width="100%" height="550px" frameborder="0" scrolling="yes" allowtransparency="true" src="http://www.availcheck.com/cgi-bin/calendar.cgi?propid=14220"></iframe>
+                    <iframe width="100%" height="550px" frameborder="0" scrolling="yes" allowtransparency="true" src="https://www.availcheck.com/cgi-bin/calendar.cgi?propid=14220"></iframe>
                 </div>
             </div>
         </div>

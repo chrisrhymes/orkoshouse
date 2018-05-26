@@ -2,6 +2,8 @@
 layout: default
 title: Home
 type: page
+description: Orkos House Provides Services For Orkos Beach House, Naxos Accommodation, Orkos House Rental, Naxos Real Estate, Holidays In Naxos, Naxos Holidays, Villas Naxos, Naxos Beach Accommodation And More
+image: /img/balcony1.jpg
 ---
 
 <section class="hero is-fullheight is-primary home-hero">

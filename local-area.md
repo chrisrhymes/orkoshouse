@@ -4,6 +4,8 @@ title: Local Area
 order: 1
 type: page
 hero: '/img/local-area-intro.jpg'
+image: /img/local-area-intro.jpg
+description: Find out more about the local area and beaches around Orkos House, Mikri Vigla, Naxos, Greece
 ---
 
 <div class="container">

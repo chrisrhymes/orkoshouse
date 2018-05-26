@@ -4,6 +4,8 @@ title: Videos & Gallery
 order: 2
 type: page
 hero: '/img/videos-intro.jpg'
+image: /img/videos-intro.jpg
+description: View videos and image gallery of the views from Orkos House, Mikri Vilga, Naxos, Greece.
 ---
 
 <div class="container">
