@@ -9,16 +9,10 @@ image: /img/balcony1.jpg
 <section class="hero is-fullheight is-primary home-hero">
     <div class="hero-body">
         <div class="container has-text-centered">
-            <div class="columns is-multiline">
-                <div class="column is-12-tablet is-6-desktop">
-                    <p class="title is-1 brand home-hero-title">Orkos House, Naxos</p>
-                </div>
-                <div class="column is-12-tablet is-6-desktop">
-                    <a href="/booking" class="button is-large is-primary brand home-hero-link">
-                        Book Your Stay Now
-                    </a>
-                </div>
-            </div>
+            <p class="title is-1 brand home-hero-title">Orkos House, Naxos</p>
+            <a href="/booking" class="button is-large is-primary brand home-hero-link">
+                Book Your Stay Now
+            </a> 
         </div>
     </div>
     <div class="hero-foot">
